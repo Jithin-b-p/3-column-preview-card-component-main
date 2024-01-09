@@ -1,0 +1,41 @@
+:root {
+  --ff-primary: "Lexend Deca", sans-serif;
+  --ff-secondary: "Big Shoulders Display", sans-serif;
+
+  --color-primary-100: hsl(31, 77%, 52%);
+  --color-primary-200: hsl(184, 100%, 22%);
+  --color-primary-300: hsl(179, 100%, 13%);
+
+  --color-neutral-100: hsla(0, 0%, 100%, 0.75);
+  --color-neutral-200: hsl(0, 0%, 95%);
+}
+
+//reset
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100svh;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// button reset
+button {
+  font: inherit;
+}

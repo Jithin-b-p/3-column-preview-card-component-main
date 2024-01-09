@@ -1,0 +1,73 @@
+// style for the card container.
+.card-container {
+  max-width: 100%;
+  border-radius: 1.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  overflow: hidden;
+
+  @media only screen and (max-width: 55.5em) {
+    margin-inline: 2rem;
+  }
+}
+
+// style for card
+
+.card {
+  padding: 6.1rem;
+
+  @media only screen and (max-width: 25em) {
+    padding: 4.8rem;
+  }
+
+  &__heading {
+    margin-block-start: 4rem;
+  }
+
+  &__summary {
+    margin-block-start: 3rem;
+  }
+
+  &__btn {
+    padding: 1.2rem 3rem;
+    margin-block-start: 8rem;
+    border: 2px solid var(--color-neutral-200);
+    background-color: var(--color-neutral-200);
+    // color: ;
+    border-radius: 3rem;
+
+    @media only screen and (max-width: 25em) {
+      margin-block-start: 3rem;
+    }
+  }
+
+  &__btn:hover {
+    background-color: inherit;
+    color: inherit;
+  }
+}
+
+.card-1 {
+  background-color: var(--color-primary-100);
+
+  & button {
+    color: var(--color-primary-100);
+  }
+}
+
+.card-2 {
+  background-color: var(--color-primary-200);
+
+  & button {
+    color: var(--color-primary-200);
+  }
+}
+
+.card-3 {
+  background-color: var(--color-primary-300);
+
+  & button {
+    color: var(--color-primary-300);
+  }
+}

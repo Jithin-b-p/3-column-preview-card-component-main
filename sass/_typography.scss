@@ -1,0 +1,27 @@
+body {
+  background-color: var(--color-neutral-200);
+}
+
+.card {
+  font-family: var(--ff-primary);
+  color: var(--color-neutral-200);
+
+  &__icon {
+  }
+
+  &__heading {
+    font-family: var(--ff-secondary);
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  &__summary {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--color-neutral-100);
+  }
+
+  &__btn {
+    font-size: 1.5rem;
+  }
+}
