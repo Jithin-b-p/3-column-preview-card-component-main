@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  height: 100svh;
+  min-height: 100svh;
   box-sizing: border-box;
 
   display: flex;

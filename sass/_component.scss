@@ -1,19 +1,14 @@
 // style for the card container.
 .card-container {
   max-width: 100%;
-  border-radius: 1.2rem;
-
+  border-radius: 1rem;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   overflow: hidden;
-
-  @media only screen and (max-width: 55.5em) {
-    margin-inline: 2rem;
-  }
 }
 
 // style for card
-
 .card {
   padding: 6.1rem;
 

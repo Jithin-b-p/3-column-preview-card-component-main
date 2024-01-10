@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  height: 100svh;
+  min-height: 100svh;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -37,15 +37,11 @@ button {
 
 .card-container {
   max-width: 100%;
-  border-radius: 1.2rem;
+  border-radius: 1rem;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   overflow: hidden;
-}
-@media only screen and (max-width: 55.5em) {
-  .card-container {
-    margin-inline: 2rem;
-  }
 }
 
 .card {
@@ -102,6 +98,11 @@ button {
 
 body {
   background-color: var(--color-neutral-200);
+}
+@media only screen and (max-width: 55.5em) {
+  body {
+    padding: 8rem 2rem;
+  }
 }
 
 .card {
